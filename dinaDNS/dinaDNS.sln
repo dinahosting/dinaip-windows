@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "domDNS", "..\domDNS\domDNS.vbproj", "{7087F089-39C4-4C51-A344-F6D736C1F135}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "dinaIP", "..\..\Probas\dinaIp\dinaIP\dinaIP.vbproj", "{04956C27-19F4-4D30-BC65-49C518C95E0B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "..\..\Probas\dinaIp\Setup\Setup.vdproj", "{2DF05CEF-4ED0-4D45-B52D-76C1049775BB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "dinaDNS", "dinaDNS.vbproj", "{01607036-98D2-4E0D-AA54-FC8C69D25F9D}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectUniqueName0 = ..\\domDNS\\domDNS.vbproj
+		SccProjectName0 = \u0022$/dinaDNS/domDNS\u0022,\u0020EYAAAAAA
+		SccLocalPath0 = ..\\domDNS
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName1 = dinaDNS.vbproj
+		SccProjectName1 = \u0022$/dinaDNS/dinaDNS\u0022,\u0020YVAAAAAA
+		SccLocalPath1 = .
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7087F089-39C4-4C51-A344-F6D736C1F135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7087F089-39C4-4C51-A344-F6D736C1F135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7087F089-39C4-4C51-A344-F6D736C1F135}.Debug|x86.ActiveCfg = Debug|x86
+		{7087F089-39C4-4C51-A344-F6D736C1F135}.Debug|x86.Build.0 = Debug|x86
+		{7087F089-39C4-4C51-A344-F6D736C1F135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7087F089-39C4-4C51-A344-F6D736C1F135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7087F089-39C4-4C51-A344-F6D736C1F135}.Release|x86.ActiveCfg = Release|x86
+		{7087F089-39C4-4C51-A344-F6D736C1F135}.Release|x86.Build.0 = Release|x86
+		{04956C27-19F4-4D30-BC65-49C518C95E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04956C27-19F4-4D30-BC65-49C518C95E0B}.Debug|x86.ActiveCfg = Debug|x86
+		{04956C27-19F4-4D30-BC65-49C518C95E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04956C27-19F4-4D30-BC65-49C518C95E0B}.Release|x86.ActiveCfg = Release|x86
+		{2DF05CEF-4ED0-4D45-B52D-76C1049775BB}.Debug|Any CPU.ActiveCfg = Debug
+		{2DF05CEF-4ED0-4D45-B52D-76C1049775BB}.Debug|x86.ActiveCfg = Debug
+		{2DF05CEF-4ED0-4D45-B52D-76C1049775BB}.Debug|x86.Build.0 = Debug
+		{2DF05CEF-4ED0-4D45-B52D-76C1049775BB}.Release|Any CPU.ActiveCfg = Release
+		{2DF05CEF-4ED0-4D45-B52D-76C1049775BB}.Release|x86.ActiveCfg = Release
+		{2DF05CEF-4ED0-4D45-B52D-76C1049775BB}.Release|x86.Build.0 = Release
+		{01607036-98D2-4E0D-AA54-FC8C69D25F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01607036-98D2-4E0D-AA54-FC8C69D25F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01607036-98D2-4E0D-AA54-FC8C69D25F9D}.Debug|x86.ActiveCfg = Debug|x86
+		{01607036-98D2-4E0D-AA54-FC8C69D25F9D}.Debug|x86.Build.0 = Debug|x86
+		{01607036-98D2-4E0D-AA54-FC8C69D25F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01607036-98D2-4E0D-AA54-FC8C69D25F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01607036-98D2-4E0D-AA54-FC8C69D25F9D}.Release|x86.ActiveCfg = Release|x86
+		{01607036-98D2-4E0D-AA54-FC8C69D25F9D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

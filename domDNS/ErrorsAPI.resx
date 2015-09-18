@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DOMINIO_INACTIVO" xml:space="preserve">
+    <value>El dominio seleccionado ya no está activo.</value>
+  </data>
+  <data name="ERROR_DINAHOSTING_CANT_ANSWER" xml:space="preserve">
+    <value>Ha ocurrido un error accediendo a la base de datos.
+Si el problema continúa ponte en contacto con soporte técnico.</value>
+  </data>
+  <data name="ERROR_FAILED_LOGIN" xml:space="preserve">
+    <value>La combinación del usuario y la contraseña no son válidos.
+Asegúrate de que son correctos y que se corresponden con el usuario de dinahosting o el dominio.</value>
+  </data>
+  <data name="ERROR_LACKS_ADDRESS_" xml:space="preserve">
+    <value>Es necesario un valor para la dirección.</value>
+  </data>
+  <data name="ERROR_LACKS_HOST_" xml:space="preserve">
+    <value>Es necesario un valor para la zona.</value>
+  </data>
+  <data name="ERROR_LACKS_TYPE_" xml:space="preserve">
+    <value>No se tradujo porque nunca se daba.</value>
+  </data>
+  <data name="ERROR_WRONG_CNAMESPECIAL_" xml:space="preserve">
+    <value>No es posible configurar un CNAME del registro @.</value>
+  </data>
+  <data name="ERROR_WRONG_FQDN_" xml:space="preserve">
+    <value>Un CNAME debe apuntar a otro host o a un nombre de dominio acabado en '.'</value>
+  </data>
+  <data name="ERROR_WRONG_HOST_" xml:space="preserve">
+    <value>Host no válido.</value>
+  </data>
+  <data name="ERROR_WRONG_IGUALES_" xml:space="preserve">
+    <value>Los MX deben ser distintos.</value>
+  </data>
+  <data name="ERROR_WRONG_IP_" xml:space="preserve">
+    <value>IP no válida.</value>
+  </data>
+  <data name="ERROR_WRONG_NODEFINIDO_" xml:space="preserve">
+    <value>El MX tiene que tener su zona definida.</value>
+  </data>
+  <data name="ERROR_WRONG_TYPE_" xml:space="preserve">
+    <value>El tipo de la zona no es correcto.</value>
+  </data>
+  <data name="ERROR_WRONG_URL_" xml:space="preserve">
+    <value>URL no válida</value>
+  </data>
+  <data name="REGISTRADOR_CAIDO" xml:space="preserve">
+    <value>Zonas definidas. Error de comunicación con el registro para
+establecer DNS's adecuadas. Inténtalo más tarde.</value>
+  </data>
+  <data name="WRONGIP_" xml:space="preserve">
+    <value>Alguna IP introducida no es válida.</value>
+  </data>
+  <data name="WRONGMX_" xml:space="preserve">
+    <value>Alguna MX introducida no es válido.</value>
+  </data>
+  <data name="WRONGRULE_" xml:space="preserve">
+    <value>Debes seleccionar una de las opciones.</value>
+  </data>
+</root>
